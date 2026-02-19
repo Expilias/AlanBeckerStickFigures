@@ -40,7 +40,7 @@ def AVA_season3() -> str:
 
 @app.route('/AnimationVideoClip')
 def AVC() -> str:
-    return render_template('AVC.html')
+    return 'Do not worry... We are still working on it!'
 
 @app.route('/AnimationVersusEducation')
 def AVE() -> str:
@@ -50,4 +50,5 @@ def AVE() -> str:
 def AVS() -> str:
     return render_template('AVS.html')
 if __name__ == '__main__':
+
     app.run(debug=True) # 编写完成后改回默认值
