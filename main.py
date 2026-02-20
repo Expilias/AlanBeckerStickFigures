@@ -47,4 +47,3 @@ def AVS() -> str:
     return render_template('AVS.html')
 if __name__ == '__main__':
     app.run()
-
