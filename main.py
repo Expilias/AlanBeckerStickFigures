@@ -45,5 +45,9 @@ def AVE() -> str:
 @app.route('/AnimationVersusSeries')
 def AVS() -> str:
     return render_template('AVS.html')
+
+@app.route('/TheJourneyOfSpiritedAway')
+def JSA() -> str:
+    return render_template('JSA.html')
 if __name__ == '__main__':
     app.run()
