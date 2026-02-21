@@ -49,5 +49,19 @@ def AVS() -> str:
 @app.route('/TheJourneyOfSpiritedAway')
 def JSA() -> str:
     return render_template('JSA.html')
+
+@app.route('/AnimationTutorialSeries')
+def ATS() -> str:
+    return render_template('ATS.html')
+@app.route('/AnimationTutorialSeries/Flash')
+def ATS_Flash() -> str:
+    return render_template('ats_Flash.html')
+@app.route('/AnimationTutorialSeries/Photoshop')
+def ATS_Photoshop() -> str:
+    return render_template('ats_Photoshop.html')
+
+@app.route('/TheTwelvePrinciplesOfAnimation')
+def TPA() -> str:
+    return render_template('TPA.html')
 if __name__ == '__main__':
     app.run()
