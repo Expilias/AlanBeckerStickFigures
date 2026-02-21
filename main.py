@@ -63,5 +63,9 @@ def ATS_Photoshop() -> str:
 @app.route('/TheTwelvePrinciplesOfAnimation')
 def TPA() -> str:
     return render_template('TPA.html')
+
+@app.route('/OtherSeries')
+def OS() -> str:
+    return render_template('OS.html')
 if __name__ == '__main__':
     app.run()
